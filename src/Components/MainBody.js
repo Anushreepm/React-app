@@ -3,6 +3,7 @@ import Introduction from './Introduction'
 
 function MainBody() {
 
+    // const []
 
     const obj = [
         {
@@ -97,7 +98,7 @@ function MainBody() {
                 </div>
             </div>
             <div className = "body-services">
-                <div className = "heading">services</div>
+                <div className = "heading">Services</div>
                 <div className = "services-container">
                     <div className = "block">
                         <div className = "left">
@@ -248,7 +249,7 @@ function MainBody() {
                         <input type = "text" placeholder = "Company" required />
                     </div>
                     <div className = "form-block">
-                        <input type = "tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  placeholder = "Mobile No" required />
+                        <input type = "tel" pattern="[6789][0-9]{9}"  placeholder = "Mobile No" required />
                     </div>
                     <div className = "form-block">
                         <input type = "email" placeholder = "Email Id" required />
